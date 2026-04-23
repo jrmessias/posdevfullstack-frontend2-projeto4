@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Tasty Burger - Projeto Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação web de lanchonete de hambúrgueres desenvolvida em React com Bootstrap.
 
-## Available Scripts
+## Tecnologias
 
-In the project directory, you can run:
+- **React** 18.2.0
+- **React Bootstrap** 2.8.0
+- **Bootstrap** 5.3.1
+- **Bootstrap Icons** 1.10.5
+- **React Router DOM** 6.15.0
 
-### `npm start`
+## Como Executar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+npm install
+npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O aplicativo será aberto em [http://localhost:3000](http://localhost:3000)
 
-### `npm test`
+## Estrutura de Páginas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Rota | Página | Descrição |
+|------|--------|-----------|
+| `/` | Home | Página principal com seções de conteúdo |
+| `/about` | Sobre | História da empresa e equipe |
+| `/menu` | Cardápio | Lista de 8 hambúrgueres com preços |
+| `/shop` | Compras | Seção de download app e marcas |
+| `/blog` | Blog | Depoimentos de clientes |
+| `/contact` | Contato | Formulário de contato |
 
-### `npm run build`
+## Funcionalidades Implementadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Navegação entre páginas com React Router
+- Cards de produtos com Bootstrap
+- Formulário de contato com validação
+- Design responsivo
+- Ícones Bootstrap
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Build para Produção
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run build
+```
 
-### `npm run eject`
+## Estrutura do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+src/
+├── assets/          # Imagens e recursos estáticos
+├── components/      # Componentes reutilizáveis (Layouts)
+├── pages/           # Páginas da aplicação
+│   ├── Home/
+│   ├── About/
+│   ├── Menu/
+│   ├── Shop/
+│   ├── Blog/
+│   └── Contact/
+└── styles/          # Arquivos CSS
+```
