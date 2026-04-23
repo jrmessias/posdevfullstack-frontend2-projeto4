@@ -37,6 +37,7 @@ O aplicativo será aberto em [http://localhost:3000](http://localhost:3000)
 - Formulário de contato com validação
 - Design responsivo
 - Ícones Bootstrap
+- Imagens por IA
 
 ## Build para Produção
 
