@@ -1,0 +1,68 @@
+const menuItems = [
+  {
+    id: "0001",
+    image: require("../assets/menu/burger-1.png"),
+    title: "Burger King",
+    paragraph: "Hambúrguer artesanal, Bacon, Cebola roxa, Queijo, Alface.",
+    rating: 5,
+    price: 34.9,
+  },
+  {
+    id: "0002",
+    image: require("../assets/menu/burger-2.png"),
+    title: "Bacon Master",
+    paragraph: "Hambúrguer artesanal, Bacon Duplo, Queijo, Alface.",
+    rating: 4.5,
+    price: 38.5,
+  },
+  {
+    id: "0003",
+    image: require("../assets/menu/burger-3.png"),
+    title: "The Chicken",
+    paragraph: "Queijo cheddar, alface, tomate, cebola roxa, hamburger de frango.",
+    rating: 4.5,
+    price: 42.0,
+  },
+  {
+    id: "0004",
+    image: require("../assets/menu/burger-4.png"),
+    title: "Burger Doritos",
+    paragraph: "Doritos, Queijo Triplo, Hambúrguer 240g, Cebola roxa, Alface.",
+    rating: 4,
+    price: 36.9,
+  },
+  {
+    id: "0005",
+    image: require("../assets/menu/burger-5.png"),
+    title: "Simple",
+    paragraph: "Hambúrguer 240g, Queijo.",
+    rating: 5,
+    price: 45.9,
+  },
+  {
+    id: "0006",
+    image: require("../assets/menu/burger-6.png"),
+    title: "Combo Coke",
+    paragraph: "Hambúrguer 240g, Queijo, Batata frita, Cola-cola.",
+    rating: 4,
+    price: 32.0,
+  },
+  {
+    id: "0007",
+    image: require("../assets/menu/burger-7.png"),
+    title: "Combo Guaraná",
+    paragraph: "Hambúrguer 240g, Queijo, Batata frita, Guaraná.",
+    rating: 5,
+    price: 39.9,
+  },
+  {
+    id: "0008",
+    image: require("../assets/menu/burger-8.png"),
+    title: "X Hot Burger",
+    paragraph: "Hambúrguer artesanal, Queijo duplo, Pimenta Carolina Reaper e Trinidad Scorpion.",
+    rating: 4,
+    price: 28.5,
+  },
+];
+
+export default menuItems;

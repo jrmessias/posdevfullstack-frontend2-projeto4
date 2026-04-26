@@ -268,6 +268,12 @@
   background-attachment: fixed;
   overflow: hidden;
 }
+
+/* Estilo específico para a página de listagem do blog (aplicado via .blog_listing) */
+.blog_section.blog_listing {
+  background: linear-gradient(180deg, rgba(100,47,33,0.08) 0%, rgba(100,47,33,0.02) 100%), var(--white);
+  background-attachment: scroll;
+}
 .blog_section .user_img img {
   width: 100px;
   height: 100px;
@@ -289,6 +295,48 @@
 .blog_section .carousel.slide .carousel-inner .carousel-caption h5 {
   font-size: 1rem;
   margin-bottom: 2rem;
+}
+
+/* Minimal styles for the Blog listing page titles and cards */
+.section_title {
+  font-size: 2.5rem;
+  color: var(--bg-coffee);
+  margin-bottom: 0.5rem;
+}
+.section_subtitle {
+  color: var(--grey);
+  margin-bottom: 2rem;
+}
+
+/* Botões alinhados ao layout do site para páginas de Blog e Shop */
+.blog_section .btn-primary,
+.shop_section .btn-primary {
+  background: var(--yellow) !important;
+  border-color: var(--yellow) !important;
+  color: var(--light-black) !important;
+  font-weight: 700;
+}
+.blog_section .btn-primary:hover,
+.shop_section .btn-primary:hover {
+  filter: brightness(0.92);
+  color: var(--light-black) !important;
+}
+
+/* Botão de finalizar compra mais chamativo (cor da marca - vermelho) */
+.shop_section .btn-success {
+  background: var(--light-red) !important;
+  border-color: var(--light-red) !important;
+  color: var(--white) !important;
+  font-weight: 700;
+}
+.shop_section .btn-success:hover {
+  filter: brightness(0.9);
+}
+
+/* Ajuste para botões secundários na loja manterem legibilidade */
+.shop_section .btn-outline-secondary {
+  color: var(--light-black);
+  border-color: var(--light-grey-2);
 }
 
 /* Home Contact 8.0 */
